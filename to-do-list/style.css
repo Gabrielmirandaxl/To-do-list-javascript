@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #95a5a6;
+    overflow: auto;
+}
+
+
+#task{
+    width: 300px;
+    height: 29px;
+    background-color: #34495e;
+    border: none;
+    outline: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    
+
+}
+
+#task::placeholder{
+color: #2ecc71;
+}
+
+
+.add_task{
+    width: 30px;
+    height: 59px;
+    font-size: 1.5em;
+    background-color: #34495e;
+    color: #2ecc71;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+
+#result ul.list-task {
+   list-style: none;
+}
+
+#result ul.list-task li{
+    background-color: #34495e;
+    padding: 15px;
+    font-weight: bold;
+    border-top: #2ecc71 1px solid;
+    font-size: 1.2em;
+    
+   
+
+}
+
+
+#result ul.list-task li button{
+    background-color: #fc0000;
+    position: absolute;
+     left: 62%;
+    border: none;
+    outline: none;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+   
+
+}
+
+
+
+section #container{
+    display: flex;
+}
+
+.conclude{
+    text-decoration: line-through #2ecc71; ;
+    
+}
+
+.exclui{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: center;
+    font-variant: small-caps;
+    margin-bottom: 15px;
+}
